@@ -2,7 +2,7 @@
 def uppercase(str):
     for iterator in str:
         tmp = iterator
-        if ord(temp) >= 97 and ord(temp) <= 122:
-            temp = chr(ord(iterator) - 32)
-        print("{}".format(temp), end='')
+        if ord(tmp) >= 97 and ord(tmp) <= 122:
+            tmp = chr(ord(iterator) - 32)
+        print("{}".format(tmp), end='')
     print()
