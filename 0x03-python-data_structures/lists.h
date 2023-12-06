@@ -1,3 +1,4 @@
+#include <stddef.h>
 #ifndef LISTS_H
 #define LISTS_H
 
@@ -20,6 +21,5 @@ listint_t *add_nodeint_end(listint_t **head, const int n);
 void free_listint(listint_t *head);
 
 int is_palindrome(listint_t **head);
-int path_finder(listint_t *buffer1,int idx1, listint_t *buffer2,int idx2);
 
 #endif /* LISTS_H */
